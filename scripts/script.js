@@ -3,8 +3,9 @@ const loadVideos = async () => {
     let videosJSON = await fetch('./videos.json');
     let videos = await videosJSON.json();
     videos.forEach(video => {
-        let container = document.createElement('div');
-        container.innerHTML = `
+        let card = document.createElement('div');
+        card.classList.add('card')
+        card.innerHTML = `
             <div class="container">
                 <div class ="yt-container">
                     <iframe src="https://youtube.com/embed/${getID(video.url)}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -21,10 +22,10 @@ const loadVideos = async () => {
                 tagItem.classList.add('tag');
                 tagContainer.append(tagItem);
             });
-            container.append(tagContainer);
+            card.append(tagContainer);
         }
 
-        resourceContainer.append(container);
+        resourceContainer.append(card);
     });
 }
 const getID = (url) => {
