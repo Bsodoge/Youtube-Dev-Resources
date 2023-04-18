@@ -1,5 +1,46 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+}
+.resource-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    padding: 1rem;
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    width: 25rem;
+    border: #3F3F3F solid 1px;
+}
+.yt-container{
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    width: 100%;
+}
+iframe{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.tag-container{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+} 
+.tag{
+    background-color: #272727;
+    padding: 0.5rem;
 }
