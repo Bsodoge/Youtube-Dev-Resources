@@ -6,12 +6,10 @@ const loadVideos = async () => {
         let card = document.createElement('div');
         card.classList.add('card')
         card.innerHTML = `
-            <div class="container">
                 <div class ="yt-container">
                     <iframe src="https://youtube.com/embed/${getID(video.url)}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-                <div class="title">${video.title}</div>
-            </div>            
+                <div class="title">${video.title}</div>        
         `
         if(video.tags){
             let tagContainer = document.createElement('ul');
