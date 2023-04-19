@@ -5,9 +5,48 @@
 body{
     background-color: #000000;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+nav > *{
+    flex: 1;
+}
+.logo, .github, .search-container{
+    display: flex;
+}
+nav .search-container {
+    border-radius: 125px;
+    padding: 0.5rem 0;
+    border: #303030 solid 1px;
+}
+.search-container img{
+    margin: 0px 10px;
+}
+.search{
+    width: 92%;
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    color: #6C6C6C;
+}
+.github{
+    justify-content: end;
+}
+.github img{
+    width: 45px;
+    height: 45px;
+}
 .resource-container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
 }
 .card{
     padding: 1rem;
@@ -21,6 +60,9 @@ body{
     gap: 1rem;
     width: 25rem;
     border: #3F3F3F solid 1px;
+}
+.title{
+    overflow: hidden;
 }
 .yt-container{
     position: relative;
