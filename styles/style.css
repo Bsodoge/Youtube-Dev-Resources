@@ -54,6 +54,7 @@ nav .search-container {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
+    gap: 1rem;
 }
 .card{
     padding: 1rem;
