@@ -4,6 +4,7 @@
 }
 body{
     background-color: #000000;
+    font-family: 'Roboto', sans-serif;
 }
 nav{
     display: flex;
@@ -19,6 +20,12 @@ nav > *{
 }
 .logo, .github, .search-container{
     display: flex;
+}
+.logo a{
+    font-weight: 700;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
 }
 nav .search-container {
     border-radius: 125px;
@@ -63,11 +70,13 @@ nav .search-container {
 }
 .title{
     overflow: hidden;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 .yt-container{
     position: relative;
     overflow: hidden;
-    padding-top: 56.25%;
+    aspect-ratio: 16 / 9;
     width: 100%;
 }
 iframe{
