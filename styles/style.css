@@ -91,6 +91,8 @@ iframe{
     display: flex;
     gap: 1rem;
     list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
 } 
 .tag{
     background-color: #272727;
