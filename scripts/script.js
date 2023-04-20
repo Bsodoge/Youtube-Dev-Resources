@@ -1,8 +1,17 @@
-let resourceContainer = document.querySelector('#resource-container');
+const resourceContainer = document.querySelector('#resource-container');
+const searchBar = document.querySelector('#search');
+let videoInformation = [];
+searchBar.addEventListener('input', (e) => {
+    let searchValue = e.target.value.toLowerCase();
+    videoInformation.forEach(video => {
+        let isVisible = video.title.toLowerCase().includes(searchValue) || video.tags.some((tag) => tag.toLowerCase().includes(searchValue));
+        video.videoCard.classList.toggle('hidden', !isVisible);
+    });
+});
 const loadVideos = async () => {
     let videosJSON = await fetch('./videos.json');
     let videos = await videosJSON.json();
-    videos.forEach(video => {
+    videoInformation = videos.map(video => {
         let card = document.createElement('div');
         card.classList.add('card')
         card.innerHTML = `
@@ -23,8 +32,8 @@ const loadVideos = async () => {
             });
             card.append(tagContainer);
         }
-
         resourceContainer.append(card);
+        return {title : video.title, tags: video.tags, videoCard: card}
     });
 }
 const getID = (url) => {
