@@ -70,9 +70,12 @@ nav .search-container {
     border: #3F3F3F solid 1px;
 }
 .title{
+    text-overflow: ellipsis;
     overflow: hidden;
+    white-space: nowrap;
+    max-width: 25rem;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 .yt-container{
     position: relative;
