@@ -12,6 +12,7 @@ const loadVideos = async () => {
                 <div class="title">${video.title}</div>        
         `
         if(video.tags){
+            if(video.tags.length > 3) video.tags.splice(3);
             let tagContainer = document.createElement('ul');
             tagContainer.classList.add('tag-container');
             video.tags.forEach(tag => {
