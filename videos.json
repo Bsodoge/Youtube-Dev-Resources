@@ -41,5 +41,32 @@
 			"Concepts",
 			"Programming"
 		]
+	},
+	{
+		"url": "https://www.youtube.com/watch?v=HZ5YTanv5QE",
+		"title": "Breadth-first search in 4 minutes",
+		"tags": [
+			"Algorithms",
+			"Data Structures",
+			"Graph search"
+		]
+	},
+	{
+		"url": "https://www.youtube.com/watch?v=_lHSawdgXpI",
+		"title": "Dijkstra's algorithm in 3 minutes",
+		"tags": [
+			"Graph search",
+			"Dijkstra",
+			"Algorithms"
+		]
+	},
+	{
+		"url": "https://www.youtube.com/watch?v=__vX2sjlpXU",
+		"title": "Big-O notation in 5 minutes",
+		"tags": [
+			"complexity",
+			"big-O notation",
+			"runtime"
+		]
 	}
 ]
