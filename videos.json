@@ -1,45 +1,45 @@
-[
-    {
-        "url" : "https://www.youtube.com/watch?v=iiADhChRriM",
-        "title" : "Learn JSON in 10 Minutes",
-        "tags" : [
-            "JSON",
-            "Frontend"
-        ]
-    },
-    {
-        "url" : "https://www.youtube.com/watch?v=58YbpRDc4yw",
-        "title" : "Linked List - Singly + Doubly + Circular (Theory + Code + Implementation)",
-        "tags" : [
-            "Data Structures",
-            "Linked List",
-            "Interview Preperation"
-        ]
-    },
-    {
-        "url" : "https://youtu.be/R8rmfD9Y5-c",
-        "title" : "8 Must Know JavaScript Array Methods",
-        "tags" : [
-            "Javascript",
-            "Arrays",
-            "ES6"
-        ]
-    },
-    {
-        "url" : "https://youtu.be/fm3dSg4cxRI",
-        "title" : "Flexbox is more complicated than you thought",
-        "tags" : [
-            "CSS",
-            "Flexbox"
-        ]
-    },
-    {
-        "url" : "https://youtu.be/V97oYgN9cIE",
-        "title" : "Binary Search Tree (BST) | Implementation(with Full Code) | Part 1 - Setup",
-        "tags" : [
-            "Binary Search Tree",
-            "Data Structures",
-            "C++"
-        ]
-    }
+[{
+		"url": "https://www.youtube.com/watch?v=iiADhChRriM",
+		"title": "Learn JSON in 10 Minutes",
+		"tags": [
+			"JSON",
+			"Frontend"
+		]
+	},
+	{
+		"url": "https://www.youtube.com/watch?v=58YbpRDc4yw",
+		"title": "Linked List - Singly + Doubly + Circular (Theory + Code + Implementation)",
+		"tags": [
+			"Data Structures",
+			"Linked List",
+			"Interview Preperation"
+		]
+	},
+	{
+		"url": "https://youtu.be/R8rmfD9Y5-c",
+		"title": "8 Must Know JavaScript Array Methods",
+		"tags": [
+			"Javascript",
+			"Arrays",
+			"ES6"
+		]
+	},
+	{
+		"url": "https://youtu.be/V97oYgN9cIE",
+		"title": "Binary Search Tree (BST) | Implementation(with Full Code) | Part 1 - Setup",
+		"tags": [
+			"Binary Search Tree",
+			"Data Structures",
+			"C++"
+		]
+	},
+	{
+		"url": "https://youtu.be/lkIFF4maKMU",
+		"title": "100+ JavaScript Concepts you Need to Know",
+		"tags": [
+			"Javascript",
+			"Concepts",
+			"Programming"
+		]
+	}
 ]
