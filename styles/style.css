@@ -64,10 +64,10 @@ nav .search-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     gap: 1rem;
     width: 25rem;
     border: #3F3F3F solid 1px;
+    text-align: center;
 }
 .title{
     text-overflow: ellipsis;
@@ -93,13 +93,18 @@ iframe{
 .tag-container{
     display: flex;
     gap: 1rem;
-    list-style: none;
     flex-wrap: wrap;
+    list-style: none;
     justify-content: center;
 } 
 .tag{
     background-color: #272727;
     padding: 0.5rem;
+    width: 6rem;
+    height: 1rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 .hidden{
     display: none;
