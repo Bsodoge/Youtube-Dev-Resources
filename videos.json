@@ -13,7 +13,7 @@
         "tags" : [
             "Data Structures",
             "Linked List",
-            "Interview Prep"
+            "Interview Preperation"
         ]
     },
     {
@@ -31,6 +31,15 @@
         "tags" : [
             "CSS",
             "Flexbox"
+        ]
+    },
+    {
+        "url" : "https://youtu.be/V97oYgN9cIE",
+        "title" : "Binary Search Tree (BST) | Implementation(with Full Code) | Part 1 - Setup",
+        "tags" : [
+            "Binary Search Tree",
+            "Data Structures",
+            "C++"
         ]
     }
 ]
