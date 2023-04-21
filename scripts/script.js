@@ -2,7 +2,7 @@ const resourceContainer = document.querySelector('#resource-container');
 const searchBar = document.querySelector('#search');
 let videoInformation = [];
 searchBar.addEventListener('input', (e) => {
-    let searchValue = e.target.value.toLowerCase();
+    let searchValue = e.target.value.toLowerCase().trim().replace(/\s{2,}/g,' ');
     videoInformation.forEach(video => {
         let isVisible = video.title.toLowerCase().includes(searchValue) || video.tags.some((tag) => tag.toLowerCase().includes(searchValue));
         video.videoCard.classList.toggle('hidden', !isVisible);
