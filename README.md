@@ -76,6 +76,7 @@ Live site can be found <a href="https://bsodoge.github.io/Youtube-Dev-Resources/
 ## 💪 Contributors
 
 A huge thank you to everyone who has contributed to this project!
+
 [![Contributors](https://contrib.rocks/image?repo=Bsodoge/Youtube-Dev-Resources)](https://github.com/Bsodoge/Youtube-Dev-Resources/graphs/contributors)
 
 
