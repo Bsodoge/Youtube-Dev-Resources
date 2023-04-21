@@ -1,27 +1,28 @@
 # Youtube-Dev-Resources
-Youtube videos to help you on your development journey.
+Videos on YouTube to help you on your development journey.
 
-## ⚒️ Languages
+## ⚒️ Languages:
 
 <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" />
 
-## 🖥️ Live Site
+## 🖥️ Live Site:
 
-Live site can be found <a href="https://bsodoge.github.io/Youtube-Dev-Resources/">here</a>.
+Live site can be found <a href="https://bsodoge.github.io/Youtube-Dev-Resources/">here.</a>.
 
-## 📹 Add a video thats helped you
+## 📹 Add a video that has helped you:
 
  1. Fork this repository:
 
-- Go to this <a href="https://github.com/Bsodoge/Youtube-Dev-Resources">repositorys page</a> and click the "Fork" button near the top right of your screen.
+- Go to this <a href="https://github.com/Bsodoge/Youtube-Dev-Resources">repository's page</a> and click the "Fork" button near the top right of your screen.
 
  2. Create a new branch: 
 
     **Terminal Method**
 
-    - Clone your fork by clicking the green "Code" button on the repositorys page and clicking the "SSH" tab.
-    - Copy the SSH key, it should look something like ```git@github.com:<Your-Username>/Youtube-Dev-Resources.git```.
-    - Create a new branch using ```git checkout -b <your-new-branch-name>``` Branch names should have something to do with the change you are making for example ```git checkout -b <add-video>```.
+    - Clone your fork by using a development-ready environment, which has git installed. (git clone https://github.com/user/fork -b branch path/to/repo)
+    - Then, checkout your branch, using ```git checkout -b <branch name>```
+    - Add your changes, and commit accordingly, and push to your fork!
+    - Then make a pull-request, and wait for the owner of the repo to review and merge your changes.
 
     **Browser Method**
 
@@ -47,7 +48,7 @@ Live site can be found <a href="https://bsodoge.github.io/Youtube-Dev-Resources/
     }
     ```
     - Add your changes by using ```git add videos.json```.
-    - Commit your changes by using ```git commit -m "Update videos.json"```.
+    - Commit your changes by using ```git commit -m "<commit msg goes here>"```.
     - Push your changes by using ```git push -u origin <your-branch-name>```.
 
     **Browser Method**
@@ -73,7 +74,7 @@ Live site can be found <a href="https://bsodoge.github.io/Youtube-Dev-Resources/
     - Go back to your fork and click the `Compare and pull request` button.
     - Fill out the information and press the `Create pull request` button.
 
-## 💪 Contributors
+## 💪 Contributors:
 
 A huge thank you to everyone who has contributed to this project!
 
