@@ -21,7 +21,7 @@ Live site can be found <a href="https://bsodoge.github.io/Youtube-Dev-Resources/
 
     - Clone your fork by clicking the green "Code" button on the repositorys page and clicking the "SSH" tab.
     - Copy the SSH key, it should look something like ```git@github.com:<Your-Username>/Youtube-Dev-Resources.git```.
-    - Create a new branch using ```git checkout -b your-new-branch-name``` Branch names should have something to do with the change you are making for example ```git checkout -b <add-video>```.
+    - Create a new branch using ```git checkout -b <your-new-branch-name>``` Branch names should have something to do with the change you are making for example ```git checkout -b <add-video>```.
 
     **Browser Method**
 
