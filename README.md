@@ -1,5 +1,5 @@
 # Youtube-Dev-Resources
-Videos on YouTube to help you on your development journey.
+Videos on YouTube that will help you on your development journey.
 
 ## ⚒️ Languages:
 
