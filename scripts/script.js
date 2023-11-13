@@ -1,5 +1,7 @@
 const resourceContainer = document.querySelector('#resource-container');
 const searchBar = document.querySelector('#search');
+const menu = document.getElementById('menu');
+
 let videoInformation = [];
 searchBar.addEventListener('input', (e) => {
     let searchValue = e.target.value.toLowerCase().trim().replace(/\s{2,}/g,' ');
@@ -8,6 +10,11 @@ searchBar.addEventListener('input', (e) => {
         video.videoCard.classList.toggle('hidden', !isVisible);
     });
 });
+
+const toggleMenu = () => {
+    menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+}
+
 const loadVideos = async () => {
     let videosJSON = await fetch('./videos.json');
     let videos = await videosJSON.json();
@@ -15,10 +22,10 @@ const loadVideos = async () => {
         let card = document.createElement('div');
         card.classList.add('card')
         card.innerHTML = `
-                <div class ="yt-container">
+                <div class ="video-container">
                     <iframe src="https://youtube.com/embed/${getID(video.url)}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-                <div class="title">${video.title}</div>        
+                <div class="title">${video.title}</div>
         `
         if(video.tags){
             if(video.tags.length > 3) video.tags.splice(3);

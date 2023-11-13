@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,24 +11,61 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    <nav>
-        <div class="logo">
-            <a href="">Youtube Dev Resources</a>
-        </div>
-        <div class="search-container">
-            <img src="images/search.svg" alt="Search">
-            <input type="search" name="" id="search" class="search" placeholder="Search by title or tag...">
-        </div>
-        <div class="github">
+    <header>
+        <nav>
+            <!-- logo -->
+            <a href="/" class="text-white">
+                <div id="logo">
+                    <span>Youtube</span>
+                    <span>Dev</span>
+                    <span>Resources</span>
+                </div>
+            </a>
+
+            <div id="nav-items-container">
+                <!-- search -->
+                <div id="search-bar">
+                    <input type="search" name="" id="search" placeholder="Search by title or tag...">
+                    <img src="images/search.svg" alt="Search">
+                </div>
+
+                <!-- social links -->
+                <a href="https://github.com/Bsodoge/Youtube-Dev-Resources">
+                    <div id="github-link" class="social-link">
+                        <img src="images/github-mark-white.svg" alt="Github">
+                    </div>
+                </a>
+            </div>
+
+            <!-- hamburger -->
+            <button id="hamburger" onclick="toggleMenu()">
+                <img src="images/menu.svg" alt="menu">
+            </button>
+
+        </nav>
+        <!-- menu -->
+        <div id="menu">
+            <!-- search -->
+            <div id="search-bar">
+                <input type="search" name="" id="search" placeholder="Search by title or tag...">
+                <img src="images/search.svg" alt="Search">
+            </div>
+
+            <!-- social links -->
             <a href="https://github.com/Bsodoge/Youtube-Dev-Resources">
-                <img src="images/github-mark-white.svg" alt="Github">
+                <div id="github-link" class="social-link">
+                    <img src="images/github-mark-white.svg" alt="Github">
+                </div>
             </a>
         </div>
-    </nav>
-    <div class="resource-container" id="resource-container">
+    </header>
 
-    </div>
+    <main>
+        <div id="resource-container"></div>
+    </main>
     <script src="scripts/script.js"></script>
 </body>
+
 </html>
