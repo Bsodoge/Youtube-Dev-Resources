@@ -7,7 +7,7 @@ Videos on YouTube that will help you on your development journey.
 
 ## 🖥️ Live Site:
 
-Live site can be found <a href="https://bsodoge.github.io/Youtube-Dev-Resources/">here.</a>.
+Live site can be found <a href="https://bsodoge.github.io/Youtube-Dev-Resources/">here.</a>
 
 ## 📹 Add a video that has helped you:
 
